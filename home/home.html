@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel = "stylesheet" href = "style.css">
+    <title>The Khusro Collection</title>
+</head>
+<body>
+    <div class="poem-container" id="poem-container">
+
+         <!-- poem -->
+         <div class="poem-text">
+             <img src="rose.png" width="70" height="70"></img>
+             <span id="poem"></span>
+        </div>
+
+        <!-- author -->
+        <div class="poem-author">
+            <span id="author">~ Amir Khusro</span>
+        </div>
+
+        <!-- button -->
+        <div class="button-container">
+            <button class="tweet-button" id="twitter" title="Tweet This!">
+            <i class="fab fa-twitter"></i>
+            </button>
+            <button class="new-poem" id="new-poem" title="Next!">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+    <!-- script -->
+    <script src = "collection.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
